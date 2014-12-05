@@ -1,1 +1,1 @@
-https://github.com/stubailo/meteor-components
+Testing the component API ( https://github.com/stubailo/meteor-components )
