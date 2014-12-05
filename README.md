@@ -1,0 +1,1 @@
+https://github.com/stubailo/meteor-components

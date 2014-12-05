@@ -1,0 +1,23 @@
+<head>
+  <title>example</title>
+</head>
+
+<body>
+  <p>A test of a "Meteor component" with standalone or shared data</p>
+
+  {{> counter_factory}}
+</body>
+
+
+<template name="counter_factory">
+  <div style="background:red; width:{{ length }}0px;">counter_factory ({{ length }})</div>
+  <button data-standalone>Make a standalone counter</button>
+  <button data-shared>Make a shared counter</button>
+</template>
+
+<template name="counter">
+  <p>
+    <button>Click Me</button>
+    <p>counter clicked {{counter}} times.</p>
+  </p>
+</template>
